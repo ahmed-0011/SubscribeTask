@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yJi-fo-tsl">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -8,80 +8,40 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Subscribe View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--User View Controller-->
+        <scene sceneID="D9i-bZ-4sv">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SubscribeViewController" customModule="SubscribeTask" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="SubscribeView" customModule="SubscribeTask" customModuleProvider="target">
+                <viewController storyboardIdentifier="UserViewController" id="yJi-fo-tsl" customClass="UserViewController" customModule="SubscribeTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zue-Rm-eY0" customClass="UserView" customModule="SubscribeTask" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSr-kz-qJo">
-                                <rect key="frame" x="8" y="124" width="398" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3p-vZ-fAc">
-                                <rect key="frame" x="24" y="785.5" width="366" height="56.5"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.18372426606238612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Unsubscribe?">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <buttonConfiguration key="configuration" style="plain" title="Unsubscribe?" buttonSize="large">
-                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="22"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="unsubscribe:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="cBy-bL-81a"/>
-                                </connections>
-                            </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAP-hW-SgS">
-                                <rect key="frame" x="16" y="342" width="382" height="32"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6O-ND-GlV">
-                                <rect key="frame" x="16" y="390" width="382" height="32"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="v5e-D6-gw7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Z3p-vZ-fAc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="E8G-rG-8sC"/>
-                            <constraint firstItem="bSr-kz-qJo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Khd-yV-3HT"/>
-                            <constraint firstItem="bSr-kz-qJo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="L76-YJ-jT3"/>
-                            <constraint firstItem="qAP-hW-SgS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RBe-5l-zgx"/>
-                            <constraint firstItem="x6O-ND-GlV" firstAttribute="top" secondItem="qAP-hW-SgS" secondAttribute="bottom" constant="16" id="Rjn-Rc-qtp"/>
-                            <constraint firstItem="qAP-hW-SgS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="V1O-Eo-XX8"/>
-                            <constraint firstItem="bSr-kz-qJo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="Vk1-9I-Og9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bSr-kz-qJo" secondAttribute="trailing" constant="8" id="ZhV-ko-I74"/>
-                            <constraint firstItem="x6O-ND-GlV" firstAttribute="leading" secondItem="qAP-hW-SgS" secondAttribute="leading" id="aPZ-Cq-Cns"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Z3p-vZ-fAc" secondAttribute="bottom" constant="20" id="fVa-ec-fc9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qAP-hW-SgS" secondAttribute="trailing" constant="16" id="fcN-jN-aWd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Z3p-vZ-fAc" secondAttribute="trailing" constant="24" id="ttc-OY-TSh"/>
-                            <constraint firstItem="x6O-ND-GlV" firstAttribute="trailing" secondItem="qAP-hW-SgS" secondAttribute="trailing" id="w55-86-NCR"/>
-                            <constraint firstItem="qAP-hW-SgS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-90" id="xGS-hh-gkZ"/>
-                        </constraints>
-                        <connections>
-                            <outlet property="button" destination="Z3p-vZ-fAc" id="nZ5-03-U4U"/>
-                            <outlet property="email" destination="x6O-ND-GlV" id="WaI-Jd-UFX"/>
-                            <outlet property="label" destination="bSr-kz-qJo" id="vRI-1p-uXU"/>
-                            <outlet property="name" destination="qAP-hW-SgS" id="Ubp-6Y-ict"/>
-                        </connections>
                     </view>
                     <connections>
-                        <outlet property="subscribeView" destination="8bC-Xf-vdC" id="fDV-jA-5Ub"/>
+                        <outlet property="userView" destination="Zue-Rm-eY0" id="EG9-xw-Vh8"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pv9-P6-unK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="77"/>
+            <point key="canvasLocation" x="303" y="76"/>
+        </scene>
+        <!--Subscribe View Controller-->
+        <scene sceneID="6ZR-u1-Eqb">
+            <objects>
+                <viewController storyboardIdentifier="SubscribeViewController" modalPresentationStyle="overCurrentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="76U-xT-brt" customClass="SubscribeViewController" customModule="SubscribeTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fYf-Sf-Utc" customClass="SubscribeView" customModule="SubscribeTask" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="pyb-jU-EmY"/>
+                    </view>
+                    <connections>
+                        <outlet property="subscribeView" destination="fYf-Sf-Utc" id="9i8-IC-Iqe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sfp-Xt-pTU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1178" y="76"/>
         </scene>
     </scenes>
     <resources>

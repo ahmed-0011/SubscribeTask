@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  SubscribeTask
+
+  Created by ahmed on 02/11/2021.
+  
+*/
+
+"lang" = "ar";
+"WelcomeMessage" = "مرحبًا بك في تطبيق الاشتراك";
+"SubscribedMessage" = "شكرًا للاشتراك.";
+"NotSubscribedMessage" = "انت لم تشترك بعد! سيرسل التطبيق تنبيها لتذكيرك بالاشتراك ويرجع لحالته الاصلية بعد 20 ثانية.";
+"RequestAuthorizationFailedMessage" = "يرجى الذهاب الى الإعدادات والسماح للتطبيق بالوصول الى الإشعارات وبعد ذلك قم باعادة فتح التطبيق لمحاولة الاشتراك مجددًا.";
+"Name" = "الاسم: ";
+"Email" = "البريد الإلكتروني: ";
+"none" = "لا يوجد";
+"UnsubscribeAlertTitle" = "إلغاء الاشتراك";
+"UnsubscribeAlertMessage" = "هل تريد إلغاء الاشتراك ؟";
+"ConfirmButton" = "تأكيد";
+"CancelButton" = "إلغاء";
+"ConfirmAlertTitle" = "اُلغي اشتراكك بنجاح";
+"ConfirmAlertMessage" ="تم إلغاء اشتراكك من التطبيق بنجاح.\n من فضلك قم باعادة فتح التطبيق اذا كنت تريد الاشتراك مرة مجددًا.";
+"OkButton" = "حسنًا";
+"SubscribeNotificationTitle" = "تذكير بالاشتراك!";
+"SubscribeNotificationBody" = "تذكير للاشتراك بالتطبيق";
+"RequestAuthorizationFailedAlertTitle" = "لا يمكن الوصول الى الإشعارات";
+"RequestAuthorizationFailedAlertMessage" = "يجب عليك السماح للتطبيق بالوصول الى الإشعارات ";

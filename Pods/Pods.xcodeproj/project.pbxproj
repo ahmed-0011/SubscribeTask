@@ -7,272 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25CCF74E8B0382799C2AFADAB48CC79F /* PMAlertController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8CD01E8CA077EAA13E4433E1AAC5B6FD /* PMAlertController.xib */; };
-		296F31B26741AF8485C02455E4FC3613 /* PMAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907B6B84E054825D87C06BC4BF9E6CB7 /* PMAlertController-dummy.m */; };
-		316DA9354B9CC48E89706B858759A903 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		4E4B73462FFC3EC527D9F0CAD43DC313 /* Pods-SubscribeTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D11091061068E232CC1089C4B53E775F /* Pods-SubscribeTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C9A82405B836A5843034888BDF73FC5 /* Pods-SubscribeTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F67DD46CDB0F241CDFEC3A4871E938E /* Pods-SubscribeTask-dummy.m */; };
-		7123E7694964695DEFB9EE110F79E013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		A3BB5CC45FD1F0CB11B839828E426F98 /* PMAlertController-PMAlertController in Resources */ = {isa = PBXBuildFile; fileRef = ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController-PMAlertController */; };
-		AB278FA709F998BDB282A366A2A7A007 /* PMAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B138A86696E1BC001F19ED0B6D8F6021 /* PMAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C19336698F9EDEA1B0A9CC48CFB7B0C8 /* PMAlertController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD01E8CA077EAA13E4433E1AAC5B6FD /* PMAlertController.xib */; };
-		D0801FBEF395986A1D5235ADE8D9B239 /* PMAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1449F1BFE5D9DB6276AE64E096C5E8 /* PMAlertController.swift */; };
-		DDDEB6A5BB3949E27914B2895939EFE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		F0700C2D5E0DF7575751EE182E444B62 /* PMAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5021636F48B0E0D29CF45F211F3CB811 /* PMAlertAction.swift */; };
+		2791166439618EB5C5900C7F2563E011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		711DFD6E65D089F3266CDF288FE07DAD /* Pods-SubscribeTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF18E280A892A20987B36163CA65326 /* Pods-SubscribeTask-dummy.m */; };
+		BF3158178ADA91044688D3359D8B5168 /* Pods-SubscribeTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 405853067CCB8366D7EC551D28FF8FEA /* Pods-SubscribeTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		39E3D6532D88CE12200C62439999DAB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF447278DD2A27045784F5DA5241502E;
-			remoteInfo = PMAlertController;
-		};
-		6B7DE58C91BABA74C5759B20E91AE684 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E587873091CEC554E4965B6FC547D2FD;
-			remoteInfo = "PMAlertController-PMAlertController";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		07EA662640CA88713F03AF424EF8F4BC /* Pods-SubscribeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SubscribeTask.debug.xcconfig"; sourceTree = "<group>"; };
-		2203D46E4985CD4564A297D9673631E5 /* PMAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PMAlertController.modulemap; sourceTree = "<group>"; };
-		5021636F48B0E0D29CF45F211F3CB811 /* PMAlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertAction.swift; path = Library/PMAlertAction.swift; sourceTree = "<group>"; };
-		587ACD313092B96A91A472826E5E4B78 /* ResourceBundle-PMAlertController-PMAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PMAlertController-PMAlertController-Info.plist"; sourceTree = "<group>"; };
-		5C43251CBCAA68B8EA9F20D8E3D4AA83 /* Pods-SubscribeTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SubscribeTask.modulemap"; sourceTree = "<group>"; };
-		710FF6DB8CB1E6521AAC3BF622D447D3 /* PMAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-prefix.pch"; sourceTree = "<group>"; };
-		7C1449F1BFE5D9DB6276AE64E096C5E8 /* PMAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMAlertController.swift; path = Library/PMAlertController.swift; sourceTree = "<group>"; };
-		7F67DD46CDB0F241CDFEC3A4871E938E /* Pods-SubscribeTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SubscribeTask-dummy.m"; sourceTree = "<group>"; };
-		81E472C30CD45ADFD53EA39664C29579 /* Pods-SubscribeTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubscribeTask-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CD01E8CA077EAA13E4433E1AAC5B6FD /* PMAlertController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PMAlertController.xib; path = Library/PMAlertController.xib; sourceTree = "<group>"; };
-		8F7C71E57018FDB697015B04052E7246 /* Pods-SubscribeTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SubscribeTask-acknowledgements.markdown"; sourceTree = "<group>"; };
-		907B6B84E054825D87C06BC4BF9E6CB7 /* PMAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PMAlertController-dummy.m"; sourceTree = "<group>"; };
+		1F46A9F91D14592982EA1ABDB98683E0 /* Pods-SubscribeTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubscribeTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		405853067CCB8366D7EC551D28FF8FEA /* Pods-SubscribeTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SubscribeTask-umbrella.h"; sourceTree = "<group>"; };
+		462180D5D3A14F70AEBEFBA3B0FE7068 /* Pods-SubscribeTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SubscribeTask.modulemap"; sourceTree = "<group>"; };
+		6769AE03ABC2A532A6A3B274C59DB242 /* Pods-SubscribeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SubscribeTask.debug.xcconfig"; sourceTree = "<group>"; };
+		676B79BE288DD0C88A190705E10B806A /* Pods-SubscribeTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SubscribeTask.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8657C36A8C11B5B88E916E7DE554DFDB /* Pods-SubscribeTask-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubscribeTask-Info.plist"; sourceTree = "<group>"; };
+		8764684D478AE63BCFED972DDB1E56EE /* Pods-SubscribeTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SubscribeTask-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A44274273875465CD0A14FEA534FF92A /* PMAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMAlertController.debug.xcconfig; sourceTree = "<group>"; };
-		AE9CF5C4455EC772BFE1A7D36461EC89 /* PMAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PMAlertController-Info.plist"; sourceTree = "<group>"; };
 		B0DBA7C983B66C35A15ABE51D8B3D4EF /* Pods-SubscribeTask */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SubscribeTask"; path = Pods_SubscribeTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B138A86696E1BC001F19ED0B6D8F6021 /* PMAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMAlertController-umbrella.h"; sourceTree = "<group>"; };
-		B7F1BC8D67E582DA7FE228424D6088D3 /* PMAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMAlertController.release.xcconfig; sourceTree = "<group>"; };
-		B81A3F3DFF1FCC255282458A90DC4B58 /* Pods-SubscribeTask-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubscribeTask-Info.plist"; sourceTree = "<group>"; };
-		C896D3D249F15B7280D3A50AA603D70F /* PMAlertController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PMAlertController; path = PMAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD4AE15A0150FFE349AFC198383A5F11 /* Pods-SubscribeTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SubscribeTask-frameworks.sh"; sourceTree = "<group>"; };
-		D11091061068E232CC1089C4B53E775F /* Pods-SubscribeTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SubscribeTask-umbrella.h"; sourceTree = "<group>"; };
-		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController-PMAlertController */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "PMAlertController-PMAlertController"; path = PMAlertController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2A5416655AC27CA96059E9731DE590C /* Pods-SubscribeTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SubscribeTask.release.xcconfig"; sourceTree = "<group>"; };
+		CCF18E280A892A20987B36163CA65326 /* Pods-SubscribeTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SubscribeTask-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2DEDA7FB4E9674458E75622A7D9A531E /* Frameworks */ = {
+		FE61B5FF423CA2436C6E3B19BFFFA9D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDDEB6A5BB3949E27914B2895939EFE8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88F2E39E7D2139ADC28175462E6646A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F808F65FC4B9E4F025832A8C80216904 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7123E7694964695DEFB9EE110F79E013 /* Foundation.framework in Frameworks */,
-				316DA9354B9CC48E89706B858759A903 /* UIKit.framework in Frameworks */,
+				2791166439618EB5C5900C7F2563E011 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11A1AC88B3FA3ADDD54F6D560015DB16 /* Targets Support Files */ = {
+		1A7B28A0B6AFBD1C5EEB67A5ED4E5F0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C49914D0E9FFE794BCEAAF4375686773 /* Pods-SubscribeTask */,
+				B0DBA7C983B66C35A15ABE51D8B3D4EF /* Pods-SubscribeTask */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
-				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7F823A37B1B2B2899108C758AB850864 /* Resources */ = {
+		751678220E08EB2125291C447BF3ED03 /* Pods-SubscribeTask */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		8DB893A9DB970B5119423627761B4F70 /* PMAlertController */ = {
-			isa = PBXGroup;
-			children = (
-				5021636F48B0E0D29CF45F211F3CB811 /* PMAlertAction.swift */,
-				7C1449F1BFE5D9DB6276AE64E096C5E8 /* PMAlertController.swift */,
-				8CD01E8CA077EAA13E4433E1AAC5B6FD /* PMAlertController.xib */,
-				7F823A37B1B2B2899108C758AB850864 /* Resources */,
-				B596243D1C9BA5B6EE1140806F112F50 /* Support Files */,
-			);
-			name = PMAlertController;
-			path = PMAlertController;
-			sourceTree = "<group>";
-		};
-		B596243D1C9BA5B6EE1140806F112F50 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2203D46E4985CD4564A297D9673631E5 /* PMAlertController.modulemap */,
-				907B6B84E054825D87C06BC4BF9E6CB7 /* PMAlertController-dummy.m */,
-				AE9CF5C4455EC772BFE1A7D36461EC89 /* PMAlertController-Info.plist */,
-				710FF6DB8CB1E6521AAC3BF622D447D3 /* PMAlertController-prefix.pch */,
-				B138A86696E1BC001F19ED0B6D8F6021 /* PMAlertController-umbrella.h */,
-				A44274273875465CD0A14FEA534FF92A /* PMAlertController.debug.xcconfig */,
-				B7F1BC8D67E582DA7FE228424D6088D3 /* PMAlertController.release.xcconfig */,
-				587ACD313092B96A91A472826E5E4B78 /* ResourceBundle-PMAlertController-PMAlertController-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PMAlertController";
-			sourceTree = "<group>";
-		};
-		C49914D0E9FFE794BCEAAF4375686773 /* Pods-SubscribeTask */ = {
-			isa = PBXGroup;
-			children = (
-				5C43251CBCAA68B8EA9F20D8E3D4AA83 /* Pods-SubscribeTask.modulemap */,
-				8F7C71E57018FDB697015B04052E7246 /* Pods-SubscribeTask-acknowledgements.markdown */,
-				81E472C30CD45ADFD53EA39664C29579 /* Pods-SubscribeTask-acknowledgements.plist */,
-				7F67DD46CDB0F241CDFEC3A4871E938E /* Pods-SubscribeTask-dummy.m */,
-				CD4AE15A0150FFE349AFC198383A5F11 /* Pods-SubscribeTask-frameworks.sh */,
-				B81A3F3DFF1FCC255282458A90DC4B58 /* Pods-SubscribeTask-Info.plist */,
-				D11091061068E232CC1089C4B53E775F /* Pods-SubscribeTask-umbrella.h */,
-				07EA662640CA88713F03AF424EF8F4BC /* Pods-SubscribeTask.debug.xcconfig */,
-				F2A5416655AC27CA96059E9731DE590C /* Pods-SubscribeTask.release.xcconfig */,
+				462180D5D3A14F70AEBEFBA3B0FE7068 /* Pods-SubscribeTask.modulemap */,
+				8764684D478AE63BCFED972DDB1E56EE /* Pods-SubscribeTask-acknowledgements.markdown */,
+				1F46A9F91D14592982EA1ABDB98683E0 /* Pods-SubscribeTask-acknowledgements.plist */,
+				CCF18E280A892A20987B36163CA65326 /* Pods-SubscribeTask-dummy.m */,
+				8657C36A8C11B5B88E916E7DE554DFDB /* Pods-SubscribeTask-Info.plist */,
+				405853067CCB8366D7EC551D28FF8FEA /* Pods-SubscribeTask-umbrella.h */,
+				6769AE03ABC2A532A6A3B274C59DB242 /* Pods-SubscribeTask.debug.xcconfig */,
+				676B79BE288DD0C88A190705E10B806A /* Pods-SubscribeTask.release.xcconfig */,
 			);
 			name = "Pods-SubscribeTask";
 			path = "Target Support Files/Pods-SubscribeTask";
+			sourceTree = "<group>";
+		};
+		91EBB3BEBE13FB8F5BE244E7D88E8A1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				751678220E08EB2125291C447BF3ED03 /* Pods-SubscribeTask */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				E5FF3FB44D99AB7C5215E68982C8A78B /* Pods */,
-				FD333FCE9837F9C22111F3692471408D /* Products */,
-				11A1AC88B3FA3ADDD54F6D560015DB16 /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1A7B28A0B6AFBD1C5EEB67A5ED4E5F0B /* Products */,
+				91EBB3BEBE13FB8F5BE244E7D88E8A1E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E5FF3FB44D99AB7C5215E68982C8A78B /* Pods */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8DB893A9DB970B5119423627761B4F70 /* PMAlertController */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FD333FCE9837F9C22111F3692471408D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C896D3D249F15B7280D3A50AA603D70F /* PMAlertController */,
-				ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController-PMAlertController */,
-				B0DBA7C983B66C35A15ABE51D8B3D4EF /* Pods-SubscribeTask */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B392F4E74D0660B80AF93EB2988FE48B /* Headers */ = {
+		DBFC4510C9045828EE1ED372D4CA0806 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4B73462FFC3EC527D9F0CAD43DC313 /* Pods-SubscribeTask-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E26DB135B1B3D4B95D852F6F28D09827 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB278FA709F998BDB282A366A2A7A007 /* PMAlertController-umbrella.h in Headers */,
+				BF3158178ADA91044688D3359D8B5168 /* Pods-SubscribeTask-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AF447278DD2A27045784F5DA5241502E /* PMAlertController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E054F6F162CBB75FCA4B16B6AC307D5A /* Build configuration list for PBXNativeTarget "PMAlertController" */;
-			buildPhases = (
-				E26DB135B1B3D4B95D852F6F28D09827 /* Headers */,
-				C22B72CDB32218971D569B76F88B36C1 /* Sources */,
-				F808F65FC4B9E4F025832A8C80216904 /* Frameworks */,
-				E26DE64E3AA30E1EB42158447F2689D4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6C299DFED8AA9A76B3E8060CB33D3794 /* PBXTargetDependency */,
-			);
-			name = PMAlertController;
-			productName = PMAlertController;
-			productReference = C896D3D249F15B7280D3A50AA603D70F /* PMAlertController */;
-			productType = "com.apple.product-type.framework";
-		};
-		E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4A213EE51C07085949A3142E4E1C7254 /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */;
-			buildPhases = (
-				F511478F2E8C48D24CF85BD9502AA2D3 /* Sources */,
-				88F2E39E7D2139ADC28175462E6646A2 /* Frameworks */,
-				B071CD0A3891502E3A7BFD1B22C21ADA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PMAlertController-PMAlertController";
-			productName = PMAlertController;
-			productReference = ECE1D4E8E06362E959CA9683CBD7C694 /* PMAlertController-PMAlertController */;
-			productType = "com.apple.product-type.bundle";
-		};
 		FE741D87F2D876153EB3392D1D481F31 /* Pods-SubscribeTask */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37346E39C47D147508FA59B9B121A021 /* Build configuration list for PBXNativeTarget "Pods-SubscribeTask" */;
+			buildConfigurationList = C1562E219B75A6D0C9D4789B8077DD70 /* Build configuration list for PBXNativeTarget "Pods-SubscribeTask" */;
 			buildPhases = (
-				B392F4E74D0660B80AF93EB2988FE48B /* Headers */,
-				9D56BFEC02C45B4D9D97B2E53A35CFA9 /* Sources */,
-				2DEDA7FB4E9674458E75622A7D9A531E /* Frameworks */,
-				20BFDA9C3113771ED1DF9B81F9D291A8 /* Resources */,
+				DBFC4510C9045828EE1ED372D4CA0806 /* Headers */,
+				206A72EFCBD4C2BE569973505B69502D /* Sources */,
+				FE61B5FF423CA2436C6E3B19BFFFA9D0 /* Frameworks */,
+				CDF7A6F99647BCFF9898433D154920CE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8DC92D4E8E592269B9D5D9F88531964B /* PBXTargetDependency */,
 			);
 			name = "Pods-SubscribeTask";
 			productName = Pods_SubscribeTask;
@@ -297,144 +146,40 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FD333FCE9837F9C22111F3692471408D /* Products */;
+			productRefGroup = 1A7B28A0B6AFBD1C5EEB67A5ED4E5F0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF447278DD2A27045784F5DA5241502E /* PMAlertController */,
-				E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */,
 				FE741D87F2D876153EB3392D1D481F31 /* Pods-SubscribeTask */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		20BFDA9C3113771ED1DF9B81F9D291A8 /* Resources */ = {
+		CDF7A6F99647BCFF9898433D154920CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B071CD0A3891502E3A7BFD1B22C21ADA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C19336698F9EDEA1B0A9CC48CFB7B0C8 /* PMAlertController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E26DE64E3AA30E1EB42158447F2689D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3BB5CC45FD1F0CB11B839828E426F98 /* PMAlertController-PMAlertController in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9D56BFEC02C45B4D9D97B2E53A35CFA9 /* Sources */ = {
+		206A72EFCBD4C2BE569973505B69502D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C9A82405B836A5843034888BDF73FC5 /* Pods-SubscribeTask-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C22B72CDB32218971D569B76F88B36C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0700C2D5E0DF7575751EE182E444B62 /* PMAlertAction.swift in Sources */,
-				D0801FBEF395986A1D5235ADE8D9B239 /* PMAlertController.swift in Sources */,
-				25CCF74E8B0382799C2AFADAB48CC79F /* PMAlertController.xib in Sources */,
-				296F31B26741AF8485C02455E4FC3613 /* PMAlertController-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F511478F2E8C48D24CF85BD9502AA2D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				711DFD6E65D089F3266CDF288FE07DAD /* Pods-SubscribeTask-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		6C299DFED8AA9A76B3E8060CB33D3794 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "PMAlertController-PMAlertController";
-			target = E587873091CEC554E4965B6FC547D2FD /* PMAlertController-PMAlertController */;
-			targetProxy = 6B7DE58C91BABA74C5759B20E91AE684 /* PBXContainerItemProxy */;
-		};
-		8DC92D4E8E592269B9D5D9F88531964B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PMAlertController;
-			target = AF447278DD2A27045784F5DA5241502E /* PMAlertController */;
-			targetProxy = 39E3D6532D88CE12200C62439999DAB9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		04633D9032BACDD5D75E134D09202159 /* Debug */ = {
+		0B31D7DC33809674E66EF6131625710B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A44274273875465CD0A14FEA534FF92A /* PMAlertController.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
-				IBSC_MODULE = PMAlertController;
-				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-PMAlertController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = PMAlertController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		32BC1411E66863A7A71FA9FD67AE354E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07EA662640CA88713F03AF424EF8F4BC /* Pods-SubscribeTask.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SubscribeTask/Pods-SubscribeTask-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SubscribeTask/Pods-SubscribeTask.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4BCC512043D9C04A632596D6FBAE0A81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2A5416655AC27CA96059E9731DE590C /* Pods-SubscribeTask.release.xcconfig */;
+			baseConfigurationReference = 676B79BE288DD0C88A190705E10B806A /* Pods-SubscribeTask.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -469,40 +214,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8F5CD25970E3CC386F7882592E183FF1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A44274273875465CD0A14FEA534FF92A /* PMAlertController.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PMAlertController/PMAlertController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
-				PRODUCT_MODULE_NAME = PMAlertController;
-				PRODUCT_NAME = PMAlertController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -632,10 +343,12 @@
 			};
 			name = Release;
 		};
-		B624AABF5333E00BCCE27FA4660E8B8E /* Release */ = {
+		B4192C11D878A00B7740EAE20FB55093 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7F1BC8D67E582DA7FE228424D6088D3 /* PMAlertController.release.xcconfig */;
+			baseConfigurationReference = 6769AE03ABC2A532A6A3B274C59DB242 /* Pods-SubscribeTask.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -644,57 +357,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PMAlertController/PMAlertController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PMAlertController/PMAlertController-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SubscribeTask/Pods-SubscribeTask-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/PMAlertController/PMAlertController.modulemap";
-				PRODUCT_MODULE_NAME = PMAlertController;
-				PRODUCT_NAME = PMAlertController;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SubscribeTask/Pods-SubscribeTask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		EC0EB2DEA276390F99200B377325F7F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7F1BC8D67E582DA7FE228424D6088D3 /* PMAlertController.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PMAlertController";
-				IBSC_MODULE = PMAlertController;
-				INFOPLIST_FILE = "Target Support Files/PMAlertController/ResourceBundle-PMAlertController-PMAlertController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = PMAlertController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37346E39C47D147508FA59B9B121A021 /* Build configuration list for PBXNativeTarget "Pods-SubscribeTask" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32BC1411E66863A7A71FA9FD67AE354E /* Debug */,
-				4BCC512043D9C04A632596D6FBAE0A81 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -704,20 +392,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A213EE51C07085949A3142E4E1C7254 /* Build configuration list for PBXNativeTarget "PMAlertController-PMAlertController" */ = {
+		C1562E219B75A6D0C9D4789B8077DD70 /* Build configuration list for PBXNativeTarget "Pods-SubscribeTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04633D9032BACDD5D75E134D09202159 /* Debug */,
-				EC0EB2DEA276390F99200B377325F7F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E054F6F162CBB75FCA4B16B6AC307D5A /* Build configuration list for PBXNativeTarget "PMAlertController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F5CD25970E3CC386F7882592E183FF1 /* Debug */,
-				B624AABF5333E00BCCE27FA4660E8B8E /* Release */,
+				B4192C11D878A00B7740EAE20FB55093 /* Debug */,
+				0B31D7DC33809674E66EF6131625710B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

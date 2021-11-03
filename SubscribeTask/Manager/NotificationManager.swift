@@ -16,7 +16,7 @@ class NotificationManager {
         self.userDefaultsManager = userDefaultsManager
     }
     
-    public func requestAuthorization() {
+    public func requestAuthorization(completion: @escaping (Bool) -> ()) {
         let center = UNUserNotificationCenter.current()
     
         center.requestAuthorization(options: [.alert, .sound, .badge]) {
@@ -24,19 +24,21 @@ class NotificationManager {
         
             if granted {
                 self.scheduleNotification()
+                completion(true)
             } else {
-            print("An error occured")
+                print("Authorization request failed")
+                completion(false)
             }
         }
     }
     
     func scheduleNotification() {
         let content = UNMutableNotificationContent()
-        content.title = "Subscribe reminder!"
+        content.title = "SubscribeNotificationTitle".localized
         content.sound = .default
-        content.body = "Reminder to subscribe to the app"
+        content.body = "SubscribeNotificationBody".localized
     
-        let date = Date().addingTimeInterval(20)
+        let date = Date().addingTimeInterval(SUBSCRIBE_NOTIFICATION_DELAY)
         let trigger = UNCalendarNotificationTrigger(dateMatching: Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date), repeats: false)
     
         let request = UNNotificationRequest(identifier: "subscribe", content: content, trigger: trigger)

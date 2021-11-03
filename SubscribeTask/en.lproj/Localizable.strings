@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  SubscribeTask
+
+  Created by ahmed on 02/11/2021.
+  
+*/
+
+"lang" = "en";
+"WelcomeMessage" = "Welcome to the subscribe app";
+"SubscribedMessage" = "Thank you for the subscription!";
+"NotSubscribedMessage" = "You're not subscribed yet!\n the app will send you a notification to reminde you to subscribe  and the app will reset to it's initial state after 20 seconds.";
+"RequestAuthorizationFailedMessage" = "Please go to settings and allow the app to access notifications and then re-open the app to try to subscribe again.";
+"Name" = "Name: ";
+"Email" = "Email: ";
+"none" = "none";
+"UnsubscribeAlertTitle" = "Unsubscribe";
+"UnsubscribeAlertMessage" = "Do you want to unsubscribe?";
+"ConfirmButton" = "Confirm";
+"CancelButton" = "Cancel";
+"ConfirmAlertTitle" = "Successfully Unsubscribed";
+"ConfirmAlertMessage" = "You have successfully unsubscribed from the app. \nplease re-open the app if you want to subscribe again.";
+"OkButton" = "Ok";
+"SubscribeNotificationTitle" = "Subscribe reminder!";
+"SubscribeNotificationBody" = "Reminder to subscribe to the app";
+"RequestAuthorizationFailedAlertTitle" = "Unable to access notfications";
+"RequestAuthorizationFailedAlertMessage" = "You must allow the app to access notifications";

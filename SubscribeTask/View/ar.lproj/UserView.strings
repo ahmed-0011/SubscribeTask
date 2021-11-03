@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Email: "; ObjectID = "TRl-f7-lHo"; */
+"TRl-f7-lHo.text" = "البريد الإلكتروني: ";
+
+/* Class = "UILabel"; text = "Name: "; ObjectID = "Yhr-XB-Ip3"; */
+"Yhr-XB-Ip3.text" = "الاسم: ";
+
+/* Class = "UILabel"; text = "message"; ObjectID = "b59-qs-uMq"; */
+"b59-qs-uMq.text" = "الرسالة";
+
+/* Class = "UIButton"; configuration.title = "Unsubscribe ?"; ObjectID = "lql-Zt-xsS"; */
+"lql-Zt-xsS.configuration.title" = "إلغاء الاشتراك ؟";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lql-Zt-xsS"; */
+"lql-Zt-xsS.normalTitle" = "زر";

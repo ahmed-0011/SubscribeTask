@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Subscribe!"; ObjectID = "42Z-Te-gla"; */
+"42Z-Te-gla.text" = "الاشتراك";
+
+/* Class = "UIButton"; configuration.title = "Cancel"; ObjectID = "9rp-D6-mfR"; */
+"9rp-D6-mfR.configuration.title" = "إلغاء";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9rp-D6-mfR"; */
+"9rp-D6-mfR.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Invalid email"; ObjectID = "CbK-Qc-hbf"; */
+"CbK-Qc-hbf.text" = "البريد الإلكتروني غير صالح";
+
+/* Class = "UIButton"; configuration.title = "Subscribe"; ObjectID = "Sat-ch-39J"; */
+"Sat-ch-39J.configuration.title" =  "الاشتراك";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Sat-ch-39J"; */
+"Sat-ch-39J.normalTitle" = "زر";
+
+/* Class = "UILabel"; text = "Name must be more than 6 alphabets"; ObjectID = "XcD-Jl-Npj"; */
+"XcD-Jl-Npj.text" = "الاسم يجب ان يتكون من 6 أحرف أبجدية او آكثر";
+
+/* Class = "UILabel"; text = "Do you want to subscribe?"; ObjectID = "ZPB-qj-2BU"; */
+"ZPB-qj-2BU.text" = "هل تريد الاشتراك؟";
+
+/* Class = "UITextField"; placeholder = "Enter your email"; ObjectID = "cjA-IR-Udp"; */
+"cjA-IR-Udp.placeholder" = "أدخل بريدك الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Enter your name"; ObjectID = "dbQ-MV-Jrj"; */
+"dbQ-MV-Jrj.placeholder" = "أدخل اسمك";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "f2F-7h-r3g"; */
+"f2F-7h-r3g.text" = "البريد الإلكتروني";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "hYZ-ZQ-gjA"; */
+"hYZ-ZQ-gjA.text" = "الاسم";

@@ -14,7 +14,7 @@ class UserDefaultsManager {
         let encoder = JSONEncoder()
         let data = try encoder.encode(user)
         
-        UserDefaults.standard.set(data, forKey: "user")
+        UserDefaults.standard.set(data, forKey: USER_DEFAULTS_KEY)
             UserDefaults.standard.synchronize()
         }
         catch {
@@ -23,7 +23,7 @@ class UserDefaultsManager {
     }
     
     public func retrieveUser() -> User? {
-        if let data = UserDefaults.standard.data(forKey: "user") {
+        if let data = UserDefaults.standard.data(forKey: USER_DEFAULTS_KEY) {
             do {
                 let dencoder = JSONDecoder()
                 let user = try dencoder.decode(User.self, from: data)
@@ -38,8 +38,7 @@ class UserDefaultsManager {
     }
     
     public func removeUser() {
-        UserDefaults.standard.removeObject(forKey: "user")
+        UserDefaults.standard.removeObject(forKey: USER_DEFAULTS_KEY)
         UserDefaults.standard.synchronize()
     }
-    
 }
