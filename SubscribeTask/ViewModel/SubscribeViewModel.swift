@@ -23,4 +23,9 @@ struct SubscribeViewModel {
         let regex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}"
         return NSPredicate(format:format ,regex).evaluate(with: email)
     }
+    
+    mutating func setDataNone() {
+        name = "none".localized
+        email = "none".localized
+    }
 }

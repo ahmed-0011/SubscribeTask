@@ -8,18 +8,19 @@
 import UIKit
 
 protocol UserViewDelegate {
+    func subscribe()
     func unsubscribe()
 }
 
 class UserView: UIView {
     
+    @IBOutlet var messageLabel: UILabel!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var emailLabel: UILabel!
+    @IBOutlet var subscribeButton: UIButton!
+    @IBOutlet var unsubscribeButton: UIButton!
     var userViewModel: UserViewModel?
     var delegate: UserViewDelegate?
-    @IBOutlet weak var messageLabel: UILabel!
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var emailLabel: UILabel!
-    @IBOutlet weak var unsubscribeButton: UIButton!
-
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -47,7 +48,8 @@ class UserView: UIView {
         messageLabel.text = userViewModel?.message
         nameLabel.text = userViewModel?.name
         emailLabel.text = userViewModel?.email
-        if let _ = userViewModel?.isSubscribed {
+        
+        if userViewModel?.isSubscribeAlertBecomeActive == false {
             nameLabel.isHidden = false
             emailLabel.isHidden = false
         } else {
@@ -57,15 +59,29 @@ class UserView: UIView {
     }
 
     func buttonInit() {
-        if let isSubsribed = userViewModel?.isSubscribed {
-            if isSubsribed {
+        if userViewModel?.isSubscribeAlertBecomeActive == false {
+            if userViewModel?.mode == .subscribed {
+                subscribeButton.isHidden = true
+                subscribeButton.isEnabled = false
                 unsubscribeButton.isHidden = false
+                unsubscribeButton.isEnabled = true
+            } else {
+                subscribeButton.isHidden = false
+                subscribeButton.isEnabled = true
+                unsubscribeButton.isHidden = true
+                unsubscribeButton.isEnabled = false
             }
         } else {
+            subscribeButton.isHidden = true
+            subscribeButton.isEnabled = false
             unsubscribeButton.isHidden = true
+            unsubscribeButton.isEnabled = false
         }
     }
     
+    @IBAction func onSubscribeClick(_ sender: Any) {
+        delegate?.subscribe()
+    }
     @IBAction func onUnsubscribeClick(_ sender: Any) {
         delegate?.unsubscribe()
     }

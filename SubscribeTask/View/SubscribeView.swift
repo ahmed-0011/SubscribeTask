@@ -14,14 +14,14 @@ protocol SubscribeViewDelegate {
 
 class SubscribeView: UIView {
     
-    var subscribeViewModel = SubscribeViewModel(name: "", email: "")
-    var delegate: SubscribeViewDelegate?
     @IBOutlet var nameTextField: UITextField!
     @IBOutlet var emailTextField: UITextField!
     @IBOutlet var nameErrorLabel: UILabel!
     @IBOutlet var emailErrorLabel: UILabel!
     @IBOutlet var subscribeButton: UIButton!
     @IBOutlet var cancelButton: UIButton!
+    var subscribeViewModel = SubscribeViewModel(name: "", email: "")
+    var delegate: SubscribeViewDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -88,8 +88,7 @@ class SubscribeView: UIView {
     }
     
     @IBAction func onCancelClick(_ sender: Any) {
-        subscribeViewModel.name = "none".localized
-        subscribeViewModel.email = "none".localized
+        subscribeViewModel.setDataNone()
         delegate?.cancel(subscribeViewModel: subscribeViewModel)
     }
     
@@ -100,7 +99,6 @@ class SubscribeView: UIView {
 
 
 // MARK: - Text Fields Action Methods
-
 extension SubscribeView {
 
     @objc func didTextFieldChanged() {

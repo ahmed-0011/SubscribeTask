@@ -13,6 +13,7 @@
                 <outlet property="emailLabel" destination="TRl-f7-lHo" id="FeO-kK-G99"/>
                 <outlet property="messageLabel" destination="b59-qs-uMq" id="o0P-Mx-9Jk"/>
                 <outlet property="nameLabel" destination="Yhr-XB-Ip3" id="xSo-q0-lFF"/>
+                <outlet property="subscribeButton" destination="NHq-bs-ej1" id="isu-hV-hwi"/>
                 <outlet property="unsubscribeButton" destination="lql-Zt-xsS" id="6vE-en-t0n"/>
             </connections>
         </placeholder>
@@ -39,7 +40,7 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lql-Zt-xsS">
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lql-Zt-xsS">
                     <rect key="frame" x="16" y="779" width="382" height="59"/>
                     <color key="backgroundColor" systemColor="systemRedColor"/>
                     <state key="normal" title="Button"/>
@@ -51,6 +52,18 @@
                         <action selector="onUnsubscribeClick:" destination="-1" eventType="touchUpInside" id="Njr-P0-8vr"/>
                     </connections>
                 </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHq-bs-ej1">
+                    <rect key="frame" x="16" y="779" width="382" height="59"/>
+                    <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Subscribe !" buttonSize="large">
+                        <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="24"/>
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="onSubscribeClick:" destination="-1" eventType="touchUpInside" id="y3k-nE-E4V"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -58,15 +71,19 @@
                 <constraint firstItem="Yhr-XB-Ip3" firstAttribute="top" secondItem="b59-qs-uMq" secondAttribute="bottom" constant="200" id="92I-C6-icp"/>
                 <constraint firstItem="TRl-f7-lHo" firstAttribute="leading" secondItem="Yhr-XB-Ip3" secondAttribute="leading" id="D2r-xz-6Sr"/>
                 <constraint firstItem="b59-qs-uMq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="DVr-76-Bin"/>
+                <constraint firstItem="NHq-bs-ej1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="GbC-R6-VV4"/>
                 <constraint firstItem="TRl-f7-lHo" firstAttribute="top" secondItem="Yhr-XB-Ip3" secondAttribute="bottom" constant="16" id="IPA-kp-l9T"/>
                 <constraint firstItem="Yhr-XB-Ip3" firstAttribute="trailing" secondItem="lql-Zt-xsS" secondAttribute="trailing" id="JDC-Lk-Xft"/>
                 <constraint firstItem="b59-qs-uMq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="24" id="Pf5-Lk-N2X"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="b59-qs-uMq" secondAttribute="trailing" constant="24" id="QQX-qR-AtB"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="TRl-f7-lHo" secondAttribute="trailing" constant="16" id="V1E-fE-SMy"/>
+                <constraint firstItem="lql-Zt-xsS" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-83" id="fx6-iP-4wI"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lql-Zt-xsS" secondAttribute="trailing" constant="16" id="fxT-9u-hRi"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NHq-bs-ej1" secondAttribute="trailing" constant="16" id="isL-IE-FTR"/>
                 <constraint firstItem="Yhr-XB-Ip3" firstAttribute="leading" secondItem="lql-Zt-xsS" secondAttribute="leading" id="n4B-Xj-f1q"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="lql-Zt-xsS" secondAttribute="bottom" constant="24" id="nG1-J3-hAK"/>
                 <constraint firstItem="lql-Zt-xsS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="sGh-xs-ky4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="NHq-bs-ej1" secondAttribute="bottom" constant="24" id="zi8-Ko-eXq"/>
             </constraints>
             <point key="canvasLocation" x="133" y="111"/>
         </view>

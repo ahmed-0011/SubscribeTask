@@ -15,29 +15,31 @@ class SubscribeViewController: UIViewController, SubscribeViewDelegate {
    
     @IBOutlet var subscribeView: SubscribeView!
     var delegate: SubscribeViewControllerDelegate?
-    var userDefaultsManager: UserDefaultsManager?
+    static let identifier = "SubscribeViewController"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         subscribeView.delegate = self
     }
     
     func cancel(subscribeViewModel: SubscribeViewModel) {
-        let user = User(name: subscribeViewModel.name, email: subscribeViewModel.email, isSubsicribed: false)
-        userDefaultsManager?.saveUser(user: user)
-        NotificationCenter.default.post(name: Notification.Name("SubscribeAlertViewClosed"), object: user)
-        let notificationManager: NotificationManager = NotificationManager(userDefaultsManager: userDefaultsManager!)
+        let notificationManager: NotificationManager = NotificationManager()
         notificationManager.requestAuthorization() { success in
             if !success {
                 self.delegate?.requestAuthorizationFailed()
             }
         }
-        dismiss(animated: true)
+        postUserObject(nil)
     }
     
     func subscribe(subscribeViewModel: SubscribeViewModel) {
-        let user = User(name: subscribeViewModel.name, email: subscribeViewModel.email, isSubsicribed: true)
-        userDefaultsManager?.saveUser(user: user)
-        NotificationCenter.default.post(name: Notification.Name("SubscribeAlertViewClosed"), object: user)
+        let user = User(name: subscribeViewModel.name, email: subscribeViewModel.email)
+        UserDefaultsManager.shared.saveUser(user: user)
+        postUserObject(user)
+    }
+    
+    func postUserObject(_ user: User?) {
+        NotificationCenter.default.post(name: Notification.Name(SUBSCRIBE_ALERT_VIEW_CLOSED_NOTIFICATION), object: user)
         dismiss(animated: true)
     }
 }

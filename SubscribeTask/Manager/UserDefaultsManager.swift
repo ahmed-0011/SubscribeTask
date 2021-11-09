@@ -9,12 +9,15 @@ import Foundation
 
 class UserDefaultsManager {
     
+    static let shared = UserDefaultsManager()
+    
+    private init() {}
+    
     public func saveUser(user: User) {
         do {
-        let encoder = JSONEncoder()
-        let data = try encoder.encode(user)
-        
-        UserDefaults.standard.set(data, forKey: USER_DEFAULTS_KEY)
+            let encoder = JSONEncoder()
+            let data = try encoder.encode(user)
+            UserDefaults.standard.set(data, forKey: USER_DEFAULTS_KEY)
             UserDefaults.standard.synchronize()
         }
         catch {
@@ -25,9 +28,8 @@ class UserDefaultsManager {
     public func retrieveUser() -> User? {
         if let data = UserDefaults.standard.data(forKey: USER_DEFAULTS_KEY) {
             do {
-                let dencoder = JSONDecoder()
-                let user = try dencoder.decode(User.self, from: data)
-                
+                let decoder = JSONDecoder()
+                let user = try decoder.decode(User.self, from: data)
                 return user
             }
             catch {

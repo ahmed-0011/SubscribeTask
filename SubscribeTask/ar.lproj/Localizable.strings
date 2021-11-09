@@ -10,7 +10,7 @@
 "WelcomeMessage" = "مرحبًا بك في تطبيق الاشتراك";
 "SubscribedMessage" = "شكرًا للاشتراك.";
 "NotSubscribedMessage" = "انت لم تشترك بعد! سيرسل التطبيق تنبيها لتذكيرك بالاشتراك ويرجع لحالته الاصلية بعد 20 ثانية.";
-"RequestAuthorizationFailedMessage" = "يرجى الذهاب الى الإعدادات والسماح للتطبيق بالوصول الى الإشعارات وبعد ذلك قم باعادة فتح التطبيق لمحاولة الاشتراك مجددًا.";
+"RequestAuthorizationFailedMessage" = "اذا أردت أن يصلك اشعار للتذكير بالاشتراك يرجى الذهاب الى الإعدادات والسماح للتطبيق بالوصول الى الإشعارات وإعادة فتح التطبيق. او اضغط على زر اشتراك للاشتراك مباشرة.";
 "Name" = "الاسم: ";
 "Email" = "البريد الإلكتروني: ";
 "none" = "لا يوجد";
@@ -18,8 +18,8 @@
 "UnsubscribeAlertMessage" = "هل تريد إلغاء الاشتراك ؟";
 "ConfirmButton" = "تأكيد";
 "CancelButton" = "إلغاء";
-"ConfirmAlertTitle" = "اُلغي اشتراكك بنجاح";
-"ConfirmAlertMessage" ="تم إلغاء اشتراكك من التطبيق بنجاح.\n من فضلك قم باعادة فتح التطبيق اذا كنت تريد الاشتراك مرة مجددًا.";
+"UnsubscribedSuccessfullyAlertTitle" = "اُلغي اشتراكك بنجاح";
+"UnsubscribedSuccessfullyAlertMessage" ="تم إلغاء اشتراكك من التطبيق بنجاح.";
 "OkButton" = "حسنًا";
 "SubscribeNotificationTitle" = "تذكير بالاشتراك!";
 "SubscribeNotificationBody" = "تذكير للاشتراك بالتطبيق";

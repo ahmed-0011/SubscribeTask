@@ -1,4 +1,10 @@
 
+/* Class = "UIButton"; configuration.title = "Subscribe !"; ObjectID = "NHq-bs-ej1"; */
+"NHq-bs-ej1.configuration.title" = "اشتراك !";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NHq-bs-ej1"; */
+"NHq-bs-ej1.normalTitle" = "زر";
+
 /* Class = "UILabel"; text = "Email: "; ObjectID = "TRl-f7-lHo"; */
 "TRl-f7-lHo.text" = "البريد الإلكتروني: ";
 

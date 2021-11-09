@@ -9,3 +9,4 @@ import Foundation
 
 let SUBSCRIBE_NOTIFICATION_DELAY: TimeInterval = 20
 let USER_DEFAULTS_KEY = "user"
+let SUBSCRIBE_ALERT_VIEW_CLOSED_NOTIFICATION = "SubscribeAlertViewClosed"

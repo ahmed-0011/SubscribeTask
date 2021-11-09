@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9ABAECB606174DAEE2442A73 /* Pods_SubscribeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0C9D9EE573AA83407275E1 /* Pods_SubscribeTask.framework */; };
 		E20A3BED27304F5600C75E74 /* SubscribeAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20A3BEC27304F5600C75E74 /* SubscribeAlertView.swift */; };
 		E21C9F54273064B200DD6639 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C9F53273064B200DD6639 /* UserView.swift */; };
 		E231B68D2726DE8B00972374 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E231B68C2726DE8B00972374 /* NotificationManager.swift */; };
@@ -31,12 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E0C9D9EE573AA83407275E1 /* Pods_SubscribeTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubscribeTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD416E289F33D3F084672ABF /* Pods-SubscribeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubscribeTask.debug.xcconfig"; path = "Target Support Files/Pods-SubscribeTask/Pods-SubscribeTask.debug.xcconfig"; sourceTree = "<group>"; };
-		CE3023B41DBC3A0E942CB938 /* Pods-SubscribeTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubscribeTask.release.xcconfig"; path = "Target Support Files/Pods-SubscribeTask/Pods-SubscribeTask.release.xcconfig"; sourceTree = "<group>"; };
 		E20A3BEC27304F5600C75E74 /* SubscribeAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeAlertView.swift; sourceTree = "<group>"; };
 		E21C9F53273064B200DD6639 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
-		E23102932732920A008FF946 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/UserView.strings; sourceTree = "<group>"; };
 		E231B68C2726DE8B00972374 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		E25081492725B24400C8E5A8 /* SubscribeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubscribeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E250814C2725B24400C8E5A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +49,7 @@
 		E292F8C82731BDC5008E3E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SubscribeView.xib; sourceTree = "<group>"; };
 		E29B1DCC27321E4200B0B373 /* SubscribeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeViewModel.swift; sourceTree = "<group>"; };
 		E2B934622726ED4B0007C8E5 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		E2CB08CA273A6809007C4574 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/UserView.strings; sourceTree = "<group>"; };
 		E2CFEB3F2730D09E0084B4C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E2CFEB412730D0BB0084B4C5 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E2CFEB432730D1370084B4C5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
@@ -66,30 +62,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ABAECB606174DAEE2442A73 /* Pods_SubscribeTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F103C3D159418F3431084AD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8E0C9D9EE573AA83407275E1 /* Pods_SubscribeTask.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4AE17CEB8C52ABCE118AFA76 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BD416E289F33D3F084672ABF /* Pods-SubscribeTask.debug.xcconfig */,
-				CE3023B41DBC3A0E942CB938 /* Pods-SubscribeTask.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		E231B68B2726DE3C00972374 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +82,6 @@
 			children = (
 				E250814B2725B24400C8E5A8 /* SubscribeTask */,
 				E250814A2725B24400C8E5A8 /* Products */,
-				3F103C3D159418F3431084AD /* Frameworks */,
-				4AE17CEB8C52ABCE118AFA76 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,7 +167,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E250815D2725B24600C8E5A8 /* Build configuration list for PBXNativeTarget "SubscribeTask" */;
 			buildPhases = (
-				F7E67B9E130DB0771839DB11 /* [CP] Check Pods Manifest.lock */,
 				E25081452725B24400C8E5A8 /* Sources */,
 				E25081462725B24400C8E5A8 /* Frameworks */,
 				E25081472725B24400C8E5A8 /* Resources */,
@@ -255,31 +230,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		F7E67B9E130DB0771839DB11 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SubscribeTask-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		E25081452725B24400C8E5A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -325,7 +275,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E292F8C42731BB36008E3E06 /* Base */,
-				E23102932732920A008FF946 /* ar */,
+				E2CB08CA273A6809007C4574 /* ar */,
 			);
 			name = UserView.xib;
 			sourceTree = "<group>";
@@ -471,7 +421,6 @@
 		};
 		E250815E2725B24600C8E5A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD416E289F33D3F084672ABF /* Pods-SubscribeTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -502,7 +451,6 @@
 		};
 		E250815F2725B24600C8E5A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE3023B41DBC3A0E942CB938 /* Pods-SubscribeTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
